@@ -6,7 +6,7 @@ Projeto do curso de Full-Stack da RocketSeat focado em praticar os conhecimentos
 
 ## Screenshots
 
-![App Screenshot](https://www.github.com/)
+![App Screenshot](https://raw.githubusercontent.com/busolinkz/tourist-place/refs/heads/main/assets/Thumbnail.png)
 
 
 ## Autores
