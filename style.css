@@ -170,3 +170,16 @@ footer {
 footer img {
     vertical-align: middle;
 }
+
+@media(max-width: 600px) {
+    #page {
+        padding: 1.5rem;
+    }
+
+    .know__img,
+    .find__places img,
+    .find__places:last-child img {
+        height: 100%;
+        object-position: initial;
+    }
+}
