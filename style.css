@@ -12,3 +12,161 @@
     --accent-pink: #E5245E;
     --accent-purple: #591B98;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1.75rem;
+}
+
+h1,
+h2,
+h3,
+span,
+p,
+li {
+    line-height: 140%;
+}
+
+#page {
+    padding: 5.5rem 5rem 3rem;
+    background: var(--bg-default);
+}
+
+#page>main {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.know {
+    margin-bottom: 4rem;
+}
+
+.know,
+.find {
+    border-bottom: 1px solid var(--border-primary);
+    padding-bottom: 2.5rem;
+}
+
+.headline {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: var(--text-headline);
+}
+
+.know__title {
+    color: var(--text-primary);
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+}
+
+.know__img {
+    height: 41.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.know__description {
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+.find__title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.find__text {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 4rem;
+}
+
+.find__places:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.find__places img {
+    height: 21.875rem;
+    margin-bottom: 1.25rem;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.find__places:last-child img {
+    object-position: bottom -2.5rem right 0;
+}
+
+.find__places h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.find__places p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+
+    margin-bottom: 1rem;
+}
+
+.find__places span {
+    font-weight: 700;
+}
+
+.find__places ul li {
+    margin-left: 1.25rem;
+    color: var(--accent-blue);
+    font-weight: 700;
+}
+
+.find__places .custom-list li:nth-child(1) {
+    color: var(--accent-purple);
+}
+
+.find__places .custom-list li:nth-child(2) {
+    color: var(--accent-pink);
+}
+
+.find__places .custom-list li:nth-child(3) {
+    color: var(--accent-orange);
+}
+
+.extra-info {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+    margin-block: 2.5rem 4rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 150%;
+    color: var(--text-secondary);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer img {
+    vertical-align: middle;
+}
